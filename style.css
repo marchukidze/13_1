@@ -1,0 +1,19 @@
+
+body {
+
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+  background-color: rgb(95, 68, 168);
+  transition: all 1s ;
+  transform-origin: center 100%;
+}
